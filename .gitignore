@@ -1,0 +1,20 @@
+# Secrets and local configuration
+secrets.h
+.env
+.env.*
+!.env.example
+
+# Build outputs
+.pio/
+build/
+.vscode/
+.idea/
+.DS_Store
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+# Logs
+*.log
